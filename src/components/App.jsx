@@ -3,7 +3,6 @@ import {Navbar, Home, CreatePost, PostDetail } from "./";
 
 // import firebase from "firebase/compat/app"
 // import 'firebase/compat/firestore';
-// import { firestore } from "./Firebase";
 
 function App() {
 
