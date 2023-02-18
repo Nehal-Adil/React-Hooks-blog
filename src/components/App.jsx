@@ -11,9 +11,9 @@ function App() {
     <div className="container">
       <Navbar />
       <Routes>
-        <Route path='/' component={<Home />} />
-        <Route path='/post/:postId' component={<PostDetail />} />
-        <Route path='/create-post' component={<CreatePost />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/post/:postId' element={<PostDetail />} />
+        <Route path='/create-post' element={<CreatePost />} />
       </Routes>
     </div>
   )
